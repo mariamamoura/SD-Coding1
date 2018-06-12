@@ -11,6 +11,7 @@ Lista de programação de Sistemas Digitais
 ## 1. *FizzBuzz* ##
 *FizzBuzz* é um jogo popular nos EUA para ensinar divisão a crianças. Nele, os jogadores contam incrementalmente, substituindo os números divisíveis por 3 por "Fizz" e os divisíveis por 5 por "Buzz". Números divisíveis por 3 e 5 ao mesmo tempo devem ser substituídos por "FizzBuzz".
 > Exemplo: 1, 2, Fizz, 4, Bizz, Fizz, 7, 8, Fizz, Bizz, 11, Fizz, 13, 14, FizzBizz, 16, ...
+
 Implemente a função *FizzBizz* conforme definida abaixo. A mesma deve receber dois números inteiros não negativos (start e end) e imprimir a partir de start (incluído) até end (excluído) seguindo a mesma lógica do FizzBuzz.
 - **Função:** void fizzBizz(int start, int end)
 - **Input:** inteiros (start < end) determinando os números de início e fim da contagem.
@@ -38,6 +39,7 @@ FizzBizz
 ## 2. Palíndromo ##
 Palíndromos são palavras ou frases que são lidas da mesma forma tanto da esquerda para a direita quanto da direita para a esquerda.
 > Exemplos: ovo, arara, ana, apos a sopa, reviver...
+
 Escreva uma função que analisa uma dada palavra ou frase, retornando se a mesma é um palíndromo ou não.
 - **Função:** bool isPalindrome (char[] sentence)
 - **Input:** Array de caracteres em minúsculo da palavra ou frase a ser analisada.
@@ -50,8 +52,8 @@ Output: true
 ## 3. Primeira Letra Única ##
 Implemente a função abaixo, a qual encontra a primeira letra que não se repete em uma sentença.
 > Exemplos:
-"ovo" -> 'v'
-"cesar school" -> 'e'
+"ovo" -> 'v',
+"cesar school" -> 'e',
 "sistemas digitais" -> 'e'
 
 - **Função:** char firstNonRepeatingChar(char[] sentence)
