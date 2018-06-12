@@ -49,7 +49,7 @@ Output: true
 
 ## 3. Primeira Letra Única ##
 Implemente a função abaixo, a qual encontra a primeira letra que não se repete em uma sentença.
-Exemplos:
+> Exemplos:
 "ovo" -> 'v'
 "cesar school" -> 'e'
 "sistemas digitais" -> 'e'
