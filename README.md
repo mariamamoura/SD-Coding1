@@ -58,8 +58,10 @@ Implemente a função abaixo, a qual encontra a primeira letra que não se repet
 "cesar school" -> 'e',
 "sistemas digitais" -> 'e'
 
-- **Função:** char firstNonRepeatingChar(char[] sentence)
-- **Input:** Array não nulo de letras, formado apenas por ASCII em minúsculo.
+- **Função:** char firstNonRepeatingChar(char[] sentence, int length)
+- **Input:**
+  - sentence: array não nulo de letras, formado apenas por ASCII em minúsculo
+  - length: tamanho do array - número de caracteres
 - **Output:** A primeira letra que não se repete, ou -1, caso todas se repitam.
 ```
 firstNonRepeatingChar("cesar school");
