@@ -41,11 +41,13 @@ Palíndromos são palavras ou frases que são lidas da mesma forma tanto da esqu
 > Exemplos: ovo, arara, ana, apos a sopa, reviver...
 
 Escreva uma função que analisa uma dada palavra ou frase, retornando se a mesma é um palíndromo ou não.
-- **Função:** bool isPalindrome (char[] sentence)
-- **Input:** Array de caracteres em minúsculo da palavra ou frase a ser analisada.
+- **Função:** bool isPalindrome (char[] sentence, int length)
+- **Input:**
+  - sentence: array de caracteres em minúsculo da palavra ou frase a ser analisada.
+  - length: tamanho do array - número de caracteres
 - **Output:** *true* se a sentença é um palídromo, *falso* caso negativo.
 ```
-isPalindrome("ovo");
+isPalindrome("ovo", 3);
 Output: true
 ```
 
