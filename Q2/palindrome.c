@@ -12,7 +12,7 @@
  */
 
 bool isPalindrome (char sentence[], int length) {
-    printf("\nisPalindrome::START: %s, %d\n", s, length);
+    printf("\nisPalindrome::START: %s, %d\n", sentence, length);
 
     // TODO: YOUR CODE HERE!
     
