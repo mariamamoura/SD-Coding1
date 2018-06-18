@@ -11,8 +11,18 @@ void fizzBizz(int start, int end)
 {
     printf("\nFizzBizz::START: %d, %d\n", start, end);
     
-    // TODO: Your code here!
-    // Ex.: printf("Fizz\n");
+   for(int num = start; num <= end; num ++ )
+   {
+       if ( (num % 3 == 0) && (num % 5 == 0) ) { //se o numero for divisivel por 3 e por 5
+           printf("FizzBizz\n");
+       } else if(num % 3 == 0) { // se o numero for divisivel por 3
+           printf("Fizz\n");
+       } else if(num % 5 == 0) { // se o numero for divisivel por 5
+           printf("Bizz\n");
+       } else {
+           printf("%d\n", num);
+       }
+   }
     
     printf("\nFizzBizz::END\n");
 }
